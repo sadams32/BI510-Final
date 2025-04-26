@@ -1,0 +1,23 @@
+---
+title: "BI510_Final"
+format: html
+editor: visual
+---
+
+## Loading Packages
+
+```{r}
+library(curl)
+library(tidyverse)
+library(dplyr)
+```
+
+```{r}
+f_AllBirth <- curl("https://raw.githubusercontent.com/sadams32/BI510-Final/refs/heads/main/AllBirthData.csv") 
+
+d_AllBirth <- read.csv(f_AllBirth, header = TRUE, sep = ",", stringsAsFactors = TRUE) # read in data
+
+colnames(d_AllBirth) <- c("Category", "Summary Statistic", "Black", "White")
+
+head(d_AllBirth) # preview
+```

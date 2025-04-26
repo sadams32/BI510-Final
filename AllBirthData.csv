@@ -1,0 +1,21 @@
+﻿Category,Summary Statistic,Black,White
+Observations,Observations,159685,390149
+C-section rates,Total C-section rate,0.443,0.397
+C-section rates,Scheduled C-section rate,0.294,0.276
+C-section rates,Unscheduled C-section rate,0.149,0.122
+C-section risk,Average C-section risk,0.382,0.4
+C-section risk,Quintile 1 (r < 0.24),0.117,0.111
+C-section risk,Quintile 2 (0.24 < r < 0.30),0.27,0.279
+C-section risk,Quintile 3 (0.30 < r < 0.41),0.347,0.341
+C-section risk,Quintile 4 (0.41 < r < 0.68),0.522,0.519
+C-section risk,Quintile 5 (0.68 < r < 1),0.898,0.904
+Maternal and infant health,Maternal postpartum complication,0.077,0.06
+Maternal and infant health,Infant postnatal complication,0.132,0.084
+Mother sociodemographic characteristics,Medicaid,0.5,0.151
+Mother sociodemographic characteristics,Less than BA,0.776,0.435
+Mother sociodemographic characteristics,BA or graduate degree,0.218,0.561
+Mother sociodemographic characteristics,Married,0.341,0.821
+Attendant physician characteristics,Non-Hispanic White,0.473,0.707
+Attendant physician characteristics,Black,0.194,0.083
+Attendant physician characteristics,Female,0.403,0.46
+Attendant physician characteristics,M.D.,0.888,0.864
